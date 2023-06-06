@@ -17,4 +17,7 @@ def age(bir,d):
 print(age(2003,2004))
 print(age(1988,1989))
 
+age_Alice = age((1988,1989))
+
+
     
