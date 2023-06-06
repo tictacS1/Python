@@ -66,6 +66,24 @@ a=(a-b)
 print(a)
 print(b)
 
+#Sortir de python dans le terminal exit()
+#addition de float
+print(0.1+0.1+0.1)  #ATTENTION NE MARCHE PAS
+
+import decimal
+from decimal import Decimal
+
+print(Decimal("0.1")+Decimal("0.1")+Decimal("0.1")) #MARCHE BIEN
+
+print(Decimal(0.3))  #MARCHE BIEN
+
+#Permutation de valeurs pythonique
+b, a=a, b
+
+#Arrondir
+decimal.getcontext().rounding = decimal.ROUND_HALF_UP
+Decimal("0.05").quantize(Decimal("1")) # Decimal('1')
+Decimal("0.15").quantize(Decimal("0.1")) # Decimal('2')
 
 
 
