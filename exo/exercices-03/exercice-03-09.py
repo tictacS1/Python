@@ -14,12 +14,6 @@ price_alpha = 2.00
 price_beta = 1.70
 
 # réponse 3.9
-def charly(a,b):
-    if a>=b:
-        print("Chalie is lying")
-    else:
-        print("Charlie was right")
-
 poid_a= 120
 poid_b= 100
 weight_a= 120 / 1000
@@ -27,7 +21,4 @@ weight_b= 100 / 1000
 price_per_kilo_alpha= price_alpha / weight_a
 price_per_kilo_beta= price_beta / weight_b
 
-charly(price_per_kilo_alpha,price_per_kilo_beta)
-
-
-
+print(price_per_kilo_alpha < price_per_kilo_beta) 
