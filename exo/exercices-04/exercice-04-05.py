@@ -10,4 +10,9 @@ number = random.randint(0, 99)
 print(number)
 
 # réponse 4.5
-
+if number in range(0,49):
+    print("le nombre est compris entre 0 et 49 inclus")
+elif number in range(49,99):
+    print("le nombre n'est pas compris entre 0 et 49 inclus")
+else:
+    print("pas de valeurs")

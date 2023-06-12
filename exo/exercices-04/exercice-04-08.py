@@ -15,4 +15,12 @@ mails = random.randint(0, 5)
 print(mails)
 
 # réponse 4.8
+txt="il y a {} nouveaux mails"
+
+if mails==0:
+    print("il n'y a aucun mail")
+elif mails==1:
+    print("il y un nouveau mail")
+else:
+    print(txt.format(mails))
 

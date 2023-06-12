@@ -13,7 +13,7 @@ print(number)
 if number==1 :
     print("égal a 1")
 else:
-    print("inégal")
+    print("inégal a 1")
 
     
 
