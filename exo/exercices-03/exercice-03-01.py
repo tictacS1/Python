@@ -21,6 +21,3 @@ birthyear=1988
 year=2023
 age=year-birthyear
 print(age)
-
-
-    
