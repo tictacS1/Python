@@ -32,13 +32,16 @@ else:
 print(not True)  #grace a not devient False False
 print(False)
 
-print(True or True) #OU Logique
+print(True or True) #OR Logique
 print(True or False)
 print(False or True)
 print(False or False)
 
-#A      B       A or B
+#A      B       A or B   Table de vérité de OR
 #True   True    True
 #True   True    True
 #False  False   False
 #False  False   False
+
+#Opérateur NAND (not and)
+
