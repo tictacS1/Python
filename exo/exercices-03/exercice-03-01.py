@@ -8,16 +8,19 @@
 
 # réponse 3.1
 
-def age(bir,d):
-    if (d == 2023):
-        print(d-bir)
-    else:
-        age(bir,d + 1)
+# def age_alice(bir,d):
+#    if (d == 2023):
+#        print(d-bir)
+#    else:
+#        age_alice(bir,d + 1)
 
-print(age(2003,2004))
-print(age(1988,1989))
+#print(age_alice(2003,2004))
+#print(age_alice(1988,1989))
 
-age_Alice = age((1988,1989))
+birthyear=1988
+year=2023
+age=year-birthyear
+print(age)
 
 
     

@@ -19,3 +19,7 @@ print(2<6789) #Plus potit que
 print(5 != 34) # different de ue
 
 #Pour js "===" pour la comparaison d'identité
+
+#incrementation
+b+=1
+print(b)
