@@ -8,4 +8,12 @@
 my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.11
+def listfind(L):
+    result= 0
+    for i in L:
+        if i==3.14:
+            result += i
+    print(result)
+
+listfind(my_list)
 

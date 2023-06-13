@@ -60,11 +60,11 @@ else:
     print("rich")
 
 #Combinaison de AND et OR
-lvl=2
+lvle=2
 score=143
 credit=0
 
-if lvl >= 3 and score>=100 or credit>=10:
+if lvle >= 3 and score>=100 or credit>=10:
     print('le joueur peut acheter')
 else:
     print('ur broke !')
@@ -72,10 +72,17 @@ else:
 #Carte de réduction
 age = random.randint(0,90)
 
-if age<=11:
+# age>=0 IMPORTANT SI INT NEGATIF
+if age>=0 and age<=11:
     print('Gratuit')
 elif 26<= age <=64:
     print('10%')
 else:
     print('50%')
+
+lvl=3
+xp=90
+social=0
+
+
 

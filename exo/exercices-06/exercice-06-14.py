@@ -6,4 +6,13 @@
 my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.14
+new_list=[]
 
+for i in my_list:
+    if type(i) is int:
+        new_list.append(i)
+    else:
+        None
+
+print(new_list)
+    

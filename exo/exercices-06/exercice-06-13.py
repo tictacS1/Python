@@ -6,4 +6,11 @@
 my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.13
+def listmulti(L):
+    x=0
+    for i in L:
+        L[x]=i * 100
+        x+=1
+    print(L)
 
+listmulti(my_list)

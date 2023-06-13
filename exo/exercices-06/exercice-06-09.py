@@ -9,7 +9,7 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 # réponse 6.9
 def listsum(L):
     sum= 0
-    for i in my_list:
+    for i in L:
         sum += i
         i=i+1
     print(sum)
