@@ -41,4 +41,4 @@ def ouinon(v):
     
     return None
 
-#!! 
+#!! IMPORTANT DE DOC help(ouinon)
