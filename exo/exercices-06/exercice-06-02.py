@@ -6,5 +6,5 @@
 my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 
 # réponse 6.2
-result=my_list.find(2)
+result=my_list[2]
 print(result)

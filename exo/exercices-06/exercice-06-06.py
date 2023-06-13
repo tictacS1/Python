@@ -4,4 +4,4 @@
 my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 
 # réponse 6.6
-
+print(my_list.__len__())

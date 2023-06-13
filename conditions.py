@@ -45,3 +45,37 @@ print(False or False)
 
 #Opérateur NAND (not and)
 
+#OU Exclusif
+cash=bool(random.randint(0,1))
+cb=bool(random.randint(0,1))
+
+if cb or cash:
+    print('Je possède de la maille')
+else:
+    print('il faut des sous')
+
+if not cb and not cash:
+    print("broke")
+else:
+    print("rich")
+
+#Combinaison de AND et OR
+lvl=2
+score=143
+credit=0
+
+if lvl >= 3 and score>=100 or credit>=10:
+    print('le joueur peut acheter')
+else:
+    print('ur broke !')
+
+#Carte de réduction
+age = random.randint(0,90)
+
+if age<=11:
+    print('Gratuit')
+elif 26<= age <=64:
+    print('10%')
+else:
+    print('50%')
+

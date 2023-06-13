@@ -6,4 +6,5 @@
 my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 
 # réponse 6.5
-
+my_list[1]=29
+print(my_list)
