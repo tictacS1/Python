@@ -21,4 +21,4 @@ weight_b= 100 / 1000
 price_per_kilo_alpha= price_alpha / weight_a
 price_per_kilo_beta= price_beta / weight_b
 
-print(price_per_kilo_alpha < price_per_kilo_beta) 
+print(price_per_kilo_alpha < price_per_kilo_beta)

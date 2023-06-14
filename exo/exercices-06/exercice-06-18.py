@@ -13,7 +13,24 @@ for _ in range(0, size):
     row = [random.randint(40, 100) for _ in range(0, size)]
     matrix.append(row)
 
-print(matrix)
+l=[]
+c=[]
+rep=[]
+for i in matrix:
+    for z in i:
+        if z<=50:
+            rep.append(z)
+            c.append(i.index(z))
+            l.append(matrix.index(i))
+        else:
+            None
+
+inf="Inférieur ou égal a 50: {}"
+ligne="Ligne n°{}"
+colonnes="Colonnes n°: {}"
+print(inf.format(rep))
+print(ligne.format(l))
+print(colonnes.format(c))
 
 # réponse 6.18
 

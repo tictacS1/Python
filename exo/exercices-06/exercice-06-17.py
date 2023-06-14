@@ -14,6 +14,14 @@ for _ in range(0, size):
     matrix.append(row)
 
 print(matrix)
+mat=matrix[2]
+
+for y in matrix[2]:
+    for i in range(0,4,1):
+        if i==3:
+            print(mat[3])
+        else:
+            None
 
 # réponse 6.17
 
