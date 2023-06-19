@@ -3,7 +3,7 @@
 # qu'elle s'affiche correctement en utilisant la fonction help()
 
 # réponse 5.1
-#Fonction de multiplication de nombres a virgules
+#Fonction de multiplication de nombres a virgules qui prend comme paramètres deux nombres a virgules (a , b)
 def multiplication(a: float, b: float) -> float:
     return a * b
 

@@ -1,0 +1,2 @@
+liste = ['foo', 'bar', 'baz']
+
