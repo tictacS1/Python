@@ -11,4 +11,25 @@
 # 6. Si vous avez fini de parcourir la liste, recommencez depuis l'étape 2 jusqu'à ce qu'il n'y ait plus besoin d'intervertir aucun élément.
 #
 # « Facile », non ?
+import random
 
+#Liste RNG
+randoml = []
+for i in range(0,20):
+    n = random.randint(1,100)
+    randoml.append(n)
+print(randoml)
+
+#Fonction de tri par bulle , paramètre : list(int) , output : list(int)
+def tribulle(L):
+    a = True
+    while a is True:
+        a = False
+        for i in range(len(L)-1):
+            if L[i] > L[i+1]:
+                a = True
+                L[i] , L[i+1] = L[i+1] , L[i]
+    return L
+
+tribulle(randoml)
+print(randoml)

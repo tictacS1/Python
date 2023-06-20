@@ -14,6 +14,9 @@ for _ in range(0, size):
     matrix.append(row)
 
 print(matrix)
+
+# réponse 6.17
+
 mat=matrix[2]
 
 for y in matrix[2]:
@@ -22,6 +25,3 @@ for y in matrix[2]:
             print(mat[3])
         else:
             None
-
-# réponse 6.17
-
