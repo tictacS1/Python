@@ -15,4 +15,40 @@
 # - get_tax_included_price() : cette méthode calcule le prix taxe incluse et le renvoie ; par exemple pour un produit de 100 € et une taxe de 20 %, le résultat est 120.0
 
 # réponse 12.7
+class TaxIncludedProduct:
+  def __init__(self, _name:str, _price:0.0, _tax:0.0):
+    self._name = _name
+    self._price = _price
+    self._tax = _tax
 
+  def get_name(self):
+    return self._name
+  
+  def set_name(self, n):
+    self._name=n
+
+  def get_price(self):
+    return self._price
+
+  def set_price(self, p):
+    self._price=p
+
+  def get_(self):
+    return self._tax
+
+  def set_tax(self, t):
+    self._price
+
+  def get_tax_fee(self):
+    print(f"Le montant de la taxe est: {(self._price * self._tax) / 100} €")
+
+  def get_tax_included_price(self):
+    f=0
+    f= (self._price * self._tax) / 100
+    f= self._price + f
+    print(f"Le montant du prix taxe incluse est: {f} €")
+
+u1=TaxIncludedProduct("Malk",100,20)
+
+u1.get_tax_fee()
+u1.get_tax_included_price()

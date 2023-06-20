@@ -10,4 +10,22 @@
 # - set_price() : détermine le prix du produit
 
 # réponse 12.4
+class TaxFreeProduct:
+  def __init__(self, _name:str, _price:0.0):
+    self._name = _name
+    self._price = _price
+
+  def get_name(self):
+    return self._name
+  
+  def set_name(self,n):
+    self._name=n
+
+  def get_price(self):
+    return self._price
+
+  def set_price(self,p):
+    self._price=p
+
+
 

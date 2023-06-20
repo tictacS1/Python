@@ -19,9 +19,10 @@ user4=User("Avrel","Dalton","Avrel.dalton@example.com",True)
 
 users=[user1,user2,user3,user4]
 for i in users:
-    if users[3]==True:
-       print(users[0].name)
-       print(users[1].name)
-       print(users[2].name)
+    if i.newsletter is True:
+       print(i.name)
+       print(i.lastname)
+       print(i.email)
     else:
        None
+
