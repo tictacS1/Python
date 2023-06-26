@@ -20,16 +20,17 @@
 # Appelez les fonctions et affichez les résultats
 
 # réponse 10.6
-def meters_to_miles(a):
-    a = a * 1609.344
+c = 1609.344
+def meters_to_miles(a,c):
+    a = a * c 
     print(a)
     return a
 
-def miles_to_meter(b):
-    b = b / 1609.344
+def miles_to_meter(b,c):
+    b = b / c
     print(b)
     return b
 
-meters_to_miles(1000)
+meters_to_miles(1000,c)
 
-miles_to_meter(10)
+miles_to_meter(10,c)

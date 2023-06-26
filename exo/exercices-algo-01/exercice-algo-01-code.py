@@ -15,8 +15,8 @@ import random
 
 #Liste RNG
 randoml = []
-for i in range(0,20):
-    n = random.randint(1,100)
+for i in range(0, 20):
+    n = random.randint(1, 100)
     randoml.append(n)
 print(randoml)
 
